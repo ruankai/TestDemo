@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yfvccm.mapper.FileMapper">
+    <insert id="insertFile" parameterType="com.yfvccm.domain.File">
+          insert into file(fileid,filename,uploadtime,type,size,filepath,author)values (#{fileid},#{filename},#{uploadtime},#{type},#{size},#{filepath},#{author})
+    </insert>
+</mapper>

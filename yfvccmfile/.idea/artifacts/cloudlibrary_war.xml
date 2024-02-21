@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudlibrary:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="yfvccmfile.war">
+      <element id="artifact" artifact-name="cloudlibrary:war exploded" />
+    </root>
+  </artifact>
+</component>

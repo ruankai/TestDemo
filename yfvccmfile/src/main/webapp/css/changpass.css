@@ -1,0 +1,31 @@
+body {
+    background-color: #f2f2f2;
+    min-width:360px;
+}
+
+.message-content .message-top {
+    height: 5rem;
+    margin-left: 1rem;
+}
+.message-content .message-top .message-title {
+    border-width: 0px;
+    height: 3rem;
+    font-family: 'Arial Negreta', 'Arial Normal', 'Arial';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #434343;
+    line-height: 3rem;
+    text-indent: 1rem;
+}
+.button {
+    background-color: rgba(0, 153, 204, 1);
+    font: 14px "微软雅黑";
+    color: #FFF;
+    border: 0;
+    height: 30px;
+    width: 60px;
+    left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
